@@ -43,22 +43,48 @@
 
 // ejercicio con funciones 1
 
-function ejercicioUno(a,b,operation){
-    switch(operation){
-        case "suma":
-            return a+b;
-            break;
-        case "resta":
-            return a-b;
-            break;
-        case "multiplicacion":
-            return a*b;
-            break;
-        case "divicion":
-            return a/b;
-            break
-        default :
-            console.error(`la operacion ${operation} no es valida`)
-    }
+// function ejercicioUno(a,b,operation){
+//     switch(operation){
+//         case "suma":
+//             return console.log (a+b);
+//             break;
+//         case "resta":
+//             return console.log (a-b);
+//             break;
+//         case "multiplicacion":
+//             return console.log(a*b)
+//             break;
+//         case "divicion":
+//             return console.log(a/b);
+//             break
+//         default :
+//             console.error(`la operacion ${operation} no es valida`)
+//     }
+// }
+// ejercicioUno(12,20,"multiplicacion")
+
+// // realizar una funcion que almacene en un arreglo 
+// // todos los numeros pares desde a hasta b
+
+// //ejercicio 2
+
+
+// function ejercicioDos (a = 0,b =0){
+//     let nums=[];
+//     for (let i = a; i <=b; i++){
+//         console.log(i)
+//         if (i %2 === 0)nums.push(i)
+//     }
+//     console.log(nums);
+// } 
+function suma (a,b){
+    return a+b;
 }
-ejercicioUno(12,20,"divicion")
+console.log(suma(30,60));
+
+function calculadora(a,b){
+    let resultado = a + b;
+    return resultado 
+}
+resultado = calculadora(5,7)
+console.log(resultado);
