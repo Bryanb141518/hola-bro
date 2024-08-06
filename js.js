@@ -69,14 +69,14 @@
 // //ejercicio 2
 
 
-// function ejercicioDos (a = 0,b =0){
-//     let nums=[];
-//     for (let i = a; i <=b; i++){
-//         console.log(i)
-//         if (i %2 === 0)nums.push(i)
-//     }
-//     console.log(nums);
-// } 
+function ejercicioDos (a = 0,b =0){
+    let nums=[];
+    for (let i = a; i <=b; i++){
+        console.log(i)
+        if (i %2 === 0)nums.push(i)
+    }
+    console.log(nums);
+} 
 function suma (a,b){
     return a+b;
 }
@@ -88,3 +88,22 @@ function calculadora(a,b){
 }
 resultado = calculadora(5,7)
 console.log(resultado);
+
+// clases en js -------------------------------------------------------------
+
+
+// class animal{
+//     constructor(especie,edad,color) {
+//         this.especie = especie;
+//         this.edad = edad;
+//         this.color = color;
+//         this.info = `soy ${this.especie}, tengo ${this.edad} años y soy de color ${this.color}`
+// }
+// }
+// let perro = new animal("perro",5,"negro");
+// let gato = new animal("gato",2,"gris");
+// let pajaro = new animal("pajaro",1,"verde");
+
+// document.write(perro.info + "<br>")
+// document.write(gato.info + "<br>")
+// document.write(pajaro.info + "<br>")
