@@ -69,25 +69,25 @@
 // //ejercicio 2
 
 
-function ejercicioDos (a = 0,b =0){
-    let nums=[];
-    for (let i = a; i <=b; i++){
-        console.log(i)
-        if (i %2 === 0)nums.push(i)
-    }
-    console.log(nums);
-} 
-function suma (a,b){
-    return a+b;
-}
-console.log(suma(30,60));
+// function ejercicioDos (a = 0,b =0){
+//     let nums=[];
+//     for (let i = a; i <=b; i++){
+//         console.log(i)
+//         if (i %2 === 0)nums.push(i)
+//     }
+//     console.log(nums);
+// } 
+// function suma (a,b){
+//     return a+b;
+// }
+// console.log(suma(30,60));
 
-function calculadora(a,b){
-    let resultado = a + b;
-    return resultado 
-}
-resultado = calculadora(5,7)
-console.log(resultado);
+// function calculadora(a,b){
+//     let resultado = a + b;
+//     return resultado 
+// }
+// resultado = calculadora(5,7)
+// console.log(resultado);
 
 // clases en js -------------------------------------------------------------
 
@@ -107,3 +107,6 @@ console.log(resultado);
 // document.write(perro.info + "<br>")
 // document.write(gato.info + "<br>")
 // document.write(pajaro.info + "<br>")
+
+//ejemrcicio # 2 de cofla 
+class celular 
